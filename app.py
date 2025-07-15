@@ -6,11 +6,11 @@ app = Flask(__name__)
 
 @app.route("/info")
 def srtechopsinfo():
-    return "Welcome to SRTechOps"
+    return '<h1 style="color:red;">Welcome to SRTechOps</h1>'
 
 @app.route("/contact")
 def srtechopsmobilenumber():
-    return "FOR TRAINING ENQUIRY: +91 9150477118"
+    return  '<h1 style="color:red;">FOR TRAINING ENQUIRY: +91 9150477118</h1>'
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
