@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/info")
 def srtechopsinfo():
-    return '<h1 style="color:red;">Welcome to SRTechOps</h1>'
+    return '<h1 style="color:blue;">Welcome to SRTechOps</h1>'
 
 @app.route("/contact")
 def srtechopsmobilenumber():
